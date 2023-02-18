@@ -51,7 +51,6 @@ export {
   About22,
   About23,
   About24,
-  About25,
   About26,
   About27,
   About28
