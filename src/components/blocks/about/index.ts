@@ -22,7 +22,6 @@ import About21 from './About21';
 import About22 from './About22';
 import About23 from './About23';
 import About24 from './About24';
-import About25 from './About25';
 import About26 from './About26';
 import About27 from './About27';
 import About28 from './About28';
