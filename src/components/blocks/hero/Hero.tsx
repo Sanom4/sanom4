@@ -12,7 +12,7 @@ const Hero16: FC = () => {
         <div className="row gy-10 gy-md-13 gy-lg-0 align-items-center">
           <div className="col-md-8 col-lg-5 d-flex position-relative mx-auto">
             <div className="img-mask mask-1" style={slideInDownAnimate('0ms')}>
-              <img src="/img/image.jpg" srcSet="/img/photos/about17@2x.jpg 2x" alt="" />
+              <img src="/img/image.jpg" srcSet="/img/image.jpg 2x" alt="" />
             </div>
 
             <div
@@ -42,7 +42,8 @@ const Hero16: FC = () => {
             </h1>
 
             <p className="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style={slideInDownAnimate('900ms')}>
-              Hello! I'm Alexander, highly experienced IT specialists in web development, database administration, and hybrid cloud seeking challenging roles to bring technical skills &amp; drive success.
+              Hello! I'm Alexander, highly experienced IT specialists in web development, database administration, and
+              hybrid cloud seeking challenging roles to bring technical skills &amp; drive success.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
@@ -51,7 +52,11 @@ const Hero16: FC = () => {
               </span>
 
               <span style={slideInDownAnimate('1500ms')}>
-                <NextLink title="Contact Me" href="/contact-me" className="btn btn-lg btn-outline-primary rounded-pill" />
+                <NextLink
+                  title="Contact Me"
+                  href="/contact-me"
+                  className="btn btn-lg btn-outline-primary rounded-pill"
+                />
               </span>
             </div>
           </div>
