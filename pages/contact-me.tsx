@@ -118,7 +118,6 @@ const Contact: NextPage = () => {
                 <p className="lead text-center mb-10">
                   Reach out to me from our contact form and I will get back to you shortly.
                 </p>
-
                 <ContactForm />
               </div>
             </div>
