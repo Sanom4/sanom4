@@ -25,12 +25,7 @@ const Info: FC<InfoProps> = (props) => {
     <div className="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
       <div className="offcanvas-header">
         <h3 className="text-white fs-30 mb-0">{title}</h3>
-        <button
-          type="button"
-          className="btn-close btn-close-white"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        />
+        <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" />
       </div>
 
       <div className="offcanvas-body pb-6">
@@ -42,12 +37,12 @@ const Info: FC<InfoProps> = (props) => {
           <h4 className="widget-title text-white mb-3">Contact Info</h4>
           <address>{address}</address>
           <NextLink
-            title="info@email.com"
+            title="alexander@yes-i-have-this-long-email.com"
             className="link-inverse"
-            href="mailto:first.last@email.com"
+            href="mailto:alexander@yes-i-have-this-long-email.com"
           />
           <br />
-          <NextLink href="tel:0123456789" title={phone!} />
+          <NextLink href="tel:+972(53)301640F" title={phone!} />
         </div>
 
         <div className="widget mb-8">
@@ -72,12 +67,12 @@ const Info: FC<InfoProps> = (props) => {
 
 // set default props
 Info.defaultProps = {
-  title: 'Sandbox',
-  phone: '00 (123) 456 78 90',
-  description: `Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.`,
+  title: 'Sanom4',
+  phone: '+972 (53) 301 64 0F',
+  description: `Personal Website.`,
   address: (
     <Fragment>
-      Moonshine St. 14/05 <br /> Light City, London
+      Tel Aviv-Yafo, Israel
     </Fragment>
   )
 };

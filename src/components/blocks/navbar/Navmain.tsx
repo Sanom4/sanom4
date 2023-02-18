@@ -72,20 +72,24 @@ const Navmain: FC<NavbarProps> = (props) => {
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
             {navmain.map(({ id, title, url }) => (
-                        <li className="item nav-item nav-link" key={id}>
-                        <Link href={url}>
-                          <a className="dropdown-item">{title}</a>
-                        </Link>
-                      </li>
+              <li className="item nav-item nav-link" key={id}>
+                <Link href={url}>
+                  <a className="dropdown-item">{title}</a>
+                </Link>
+              </li>
             ))}
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}
           <div className="offcanvas-footer d-lg-none">
             <div>
-              <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+              <NextLink
+                title="alexander@yes-i-have-this-long-email.com"
+                className="link-inverse"
+                href="mailto:alexander@yes-i-have-this-long-email.com"
+              />
               <br />
-              <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+              <NextLink href="tel:+972 (53) 301 64 0F" title="+972 (53) 301 64 0F" />
               <br />
               <SocialLinks />
             </div>
