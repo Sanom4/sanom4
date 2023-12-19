@@ -8,6 +8,7 @@ WORKDIR /pages
 COPY package*.json ./
 
 # Install project dependencies
+RUN npm run build
 RUN npm install
 
 # Copy the rest of the application code to the container
