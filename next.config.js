@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: true
+  swcMinify: true,
+  //output: 'standalone', // mine worked fine without this line
+  // ... other config
   // reactStrictMode: true,
 };
 
